@@ -15,8 +15,8 @@ public class SociosController {
 	// y tambien muestra los resultados con un parametro no requerido 
 	@GetMapping("/")
 	public String landing() {
-		System.out.println(env.getProperty("spring.datasource.password"));
-		return "";
+		
+		return ""; // TODO: Armar template
 	}
 	
 	@GetMapping("/socios/nuevo") // formulario de alta vacio
