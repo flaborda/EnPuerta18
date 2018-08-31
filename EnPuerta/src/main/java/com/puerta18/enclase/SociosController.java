@@ -1,5 +1,7 @@
 package com.puerta18.enclase;
 
+import java.sql.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Controller;
@@ -15,7 +17,9 @@ public class SociosController {
 	// y tambien muestra los resultados con un parametro no requerido 
 	@GetMapping("/")
 	public String landing() {
+		String pepe = "fecha";
 		
+		pepe = "lkasjdlaskd";
 		return ""; // TODO: Armar template
 	}
 	
